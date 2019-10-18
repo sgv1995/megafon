@@ -1,12 +1,12 @@
 package service;
 
-import ru.itpark.ModemsRoutersTablets;
-import ru.itpark.OtherTariffs;
-import ru.itpark.TurnOn;
+import ru.itpark.ModemRouterTabletTariff;
+import ru.itpark.OtherTariff;
+import ru.itpark.TurnOnTariff;
 
 public class Main {
     public static void main(String[] args) {
-        TurnOn turnOnWatch = new TurnOn(
+        TurnOnTariff turnOnWatch = new TurnOnTariff(
                 1,
                 "Включайся! Смотри",
                 "Кино и сериалы в МегаФон ТВ",
@@ -16,14 +16,14 @@ public class Main {
                 300,
                 30);
 
-        ModemsRoutersTablets yourSixMonthUnlimited = new ModemsRoutersTablets(
+        ModemRouterTabletTariff yourSixMonthUnlimited = new ModemRouterTabletTariff(
                 1,
                 "Твой безлимит на 6 месяцев",
                 "Трафик без ограничений для использования дома и в поездках по России",
                 "Безлимитный интернет",
                 3100);
 
-        OtherTariffs goToZero = new OtherTariffs(
+        OtherTariff goToZero = new OtherTariff(
                 1,
                 "Переходи на НОЛЬ",
                 "Тариф без абонентской платы для выгодных звонков",
