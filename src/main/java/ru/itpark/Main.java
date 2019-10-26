@@ -1,8 +1,4 @@
-package service;
-
-import ru.itpark.ModemRouterTabletTariff;
-import ru.itpark.OtherTariff;
-import ru.itpark.TurnOnTariff;
+package ru.itpark;
 
 public class Main {
     public static void main(String[] args) {
